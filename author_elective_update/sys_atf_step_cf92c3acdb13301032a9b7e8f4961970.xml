@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from display_value="Log">b6fff22cdb13301032a9b7e8f49619c7</copied_from>
+        <description>Log: Test of When needed with a date in the past should fail because of a before insert business rule that prevents insert of a record with a past when needed date.&#13;
+</description>
+        <display_name>Log</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <snapshot/>
+        <step_config display_value="Log">58ab71985f30220012b44adb7f46661e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-16 16:23:13</sys_created_on>
+        <sys_id>cf92c3acdb13301032a9b7e8f4961970</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Log</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_cf92c3acdb13301032a9b7e8f4961970</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-16 16:32:20</sys_updated_on>
+        <table/>
+        <test display_value="When needed - Past">07924f6cdb13301032a9b7e8f49619e6</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=cf92c3acdb13301032a9b7e8f4961970"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>cf92c3acdb13301032a9b7e8f4961970</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-16 16:23:13</sys_created_on>
+        <sys_id>d392c3acdb13301032a9b7e8f4961972</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-16 16:28:20</sys_updated_on>
+        <value>Test of When needed with a date in the past should fail because of a before insert business rule that prevents insert of a record with a past when needed date.&#13;
+</value>
+        <variable display_value="Log">523c79985f30220012b44adb7f46663a</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>92a8842adb5b9f807d8cf22ebf961977</instance_id>
+        <instance_name>dev65434</instance_name>
+        <name>sys_atf_step_cf92c3acdb13301032a9b7e8f4961970</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Log">b6fff22cdb13301032a9b7e8f49619c7</copied_from><description>Log: Test of When needed with a date in the past should fail because of a before insert business rule that prevents insert of a record with a past when needed date.&#13;
+</description><display_name>Log</display_name><inputs/><mugshots_cache_json/><notes/><order>3</order><snapshot/><step_config display_value="Log">58ab71985f30220012b44adb7f46661e</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-10-16 16:23:13</sys_created_on><sys_id>cf92c3acdb13301032a9b7e8f4961970</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Log</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_atf_step_cf92c3acdb13301032a9b7e8f4961970</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-10-16 16:32:20</sys_updated_on><table/><test display_value="When needed - Past">07924f6cdb13301032a9b7e8f49619e6</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=cf92c3acdb13301032a9b7e8f4961970"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>cf92c3acdb13301032a9b7e8f4961970</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-10-16 16:23:13</sys_created_on><sys_id>d392c3acdb13301032a9b7e8f4961972</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-10-16 16:28:20</sys_updated_on><value>Test of When needed with a date in the past should fail because of a before insert business rule that prevents insert of a record with a past when needed date.&#13;
+</value><variable display_value="Log">523c79985f30220012b44adb7f46663a</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>-291343024</payload_hash>
+        <record_name>Log</record_name>
+        <reverted_from/>
+        <source>f89a5f11db03301032a9b7e8f49619c8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-16 16:32:20</sys_created_on>
+        <sys_id>f4b48fecdb13301032a9b7e8f4961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c89f273d10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-16 16:32:20</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>30b48fecfd133010fdecc2f22ef3f721</update_guid>
+        <update_guid_history>30b48fecfd133010fdecc2f22ef3f721:-291343024,56c343eca0133010dd247eba1d322fe4:-330852783,adc28b6c3f133010517f492476fe32b8:559587957,9392c3aca1133010d16da623b2664079:-885299694,9392c3ac6c133010cccdbb165c7f3c74:1264154706</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-16 16:33:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>3f6a0695bf3041ec8fc1289194648924</sys_id>
+        <sys_metadata>cf92c3acdb13301032a9b7e8f4961970</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Log</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_atf_step_cf92c3acdb13301032a9b7e8f4961970</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_cf92c3acdb13301032a9b7e8f4961970">f4b48fecdb13301032a9b7e8f4961921</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-16 16:33:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
